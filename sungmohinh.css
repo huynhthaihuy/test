@@ -1,0 +1,85 @@
+.Header{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    z-index: 30;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
+}
+.Header1{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+a{
+    color: grey;
+    font-size: smaller;
+}
+.icon{
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+.icon2{
+    border-right: 2px solid grey;
+}
+.Body{
+    height:2250px;
+}
+.Body1{
+    height:350px;
+}
+.section-title{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.section-title b{
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+.section-title a{
+    font-size: .6em;
+}
+.section-title span{
+    text-align: center;
+    margin: 0 15px;
+}
+.box-text{
+    position: absolute;
+    background-color: rgba(227, 227, 227, 0.8);
+    width: 100%;
+}
+.Body1a{
+    height:200px;
+}
+.p7{
+    font-size: .7em;
+}
+.Slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.Body1b{
+    height: 300px;
+}
+.Footer{
+    height:100px;
+    width: 100%;
+    display: block;
+    background-color: grey;
+}.Footer a{
+    color: currentColor;
+    text-decoration: none;
+}
+.Footer ul{
+    border-bottom: 0.5px solid rgba(227, 227, 227, 0.8);
+}
+.Footer Icon{
+    display: inline-block;
+}
